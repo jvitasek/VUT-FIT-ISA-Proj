@@ -1,11 +1,11 @@
-#Example
+# Example
 Using TLS on eva.fit.vutbr.cz with explicit specification of the port and the certificate directory.
 `./imapcl eva.fit.vutbr.cz -p 993 -o output -c cert/cacert.pem -a auth.conf -h -T`
 
 Using unsecured connection to imap.seznam.cz with implicit 143 port.
 `./imapcl imap.seznam.cz -o output -a auth.conf -n`
 
-#Files:
+# Files:
 * error.cpp
 * error.h
 * imap.cpp
@@ -19,7 +19,7 @@ Using unsecured connection to imap.seznam.cz with implicit 143 port.
 * README.md
 * Makefile
 
-#Known errors:
+# Known errors:
 Unfortunately, I was not able to fix Makefile on eva.fit.vutbr.cz, the linker is not cooperating. Working setup:
 
 ```
